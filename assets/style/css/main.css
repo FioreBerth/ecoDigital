@@ -25,4 +25,8 @@
   align-items: center;
 }
 
+.menu .navbar-toggler {
+  border: transparent;
+}
+
 /*# sourceMappingURL=main.css.map */
