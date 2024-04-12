@@ -17,6 +17,10 @@
   font-style: normal;
 }
 
+.container {
+  width: 98%;
+}
+
 .intro {
   background-color: rgb(62, 153, 138);
   height: 100vh;
@@ -27,6 +31,31 @@
 
 .menu .navbar-toggler {
   border: transparent;
+}
+
+.banner img {
+  width: 100%;
+  padding: 0;
+}
+
+.second-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.second-nav ul {
+  display: flex;
+}
+.second-nav ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8em;
+  border: solid 1px rgb(62, 153, 138);
+  border-radius: 8px;
+  list-style: none;
 }
 
 /*# sourceMappingURL=main.css.map */
