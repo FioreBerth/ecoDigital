@@ -47,8 +47,11 @@
   display: flex;
   padding: 0;
   gap: 10px;
+  width: 100%;
+  justify-content: space-between;
 }
 .second-nav ul li {
+  width: 33%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -58,6 +61,17 @@
   border-radius: 8px;
   list-style: none;
   text-align: center;
+  background-color: rgb(175, 230, 162);
+}
+.second-nav ul li:hover {
+  background-color: rgb(62, 153, 138);
+}
+.second-nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+.second-nav ul li span {
+  display: block;
 }
 
 /*# sourceMappingURL=main.css.map */
