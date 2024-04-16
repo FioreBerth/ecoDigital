@@ -61,7 +61,6 @@
   border-radius: 8px;
   list-style: none;
   text-align: center;
-  background-color: rgb(175, 230, 162);
 }
 .second-nav ul li:hover {
   background-color: rgb(62, 153, 138);
@@ -72,6 +71,41 @@
 }
 .second-nav ul li span {
   display: block;
+}
+
+.carousel {
+  margin-left: 20px;
+}
+.carousel .slider figure {
+  border: solid rgb(62, 153, 138) 1px;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+.carousel .slider figure img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.carousel .slider figure figcaption {
+  font-size: 1.1em;
+  color: black;
+  font-weight: 400;
+  text-align: center;
+}
+
+.reviews {
+  margin-left: 18px;
+  margin-bottom: 30px;
+}
+.reviews .slider article {
+  background-color: rgb(175, 230, 162);
+  border-radius: 10px;
+  padding: 8px;
+  margin-right: 5px;
+}
+.reviews .slider article span {
+  font-weight: 600;
+  margin-left: 5px;
 }
 
 /*# sourceMappingURL=main.css.map */
